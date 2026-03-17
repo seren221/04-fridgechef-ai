@@ -1,0 +1,449 @@
+{
+  "default": {
+    "name": "Default Project",
+    "style": "apple_minimalist",
+    "description": "Transform your ideas into reality instantly.",
+    "h1": "Turn Ideas Into Reality",
+    "subtitle": "Fast, secure and global AI utilities.",
+    "cta_text": "Generate for Free",
+    "is_validation_mode": true,
+    "preset_tags": ["Creative Writing", "Code Generation", "Data Analysis"],
+    "advanced_options": [
+      { "id": "model", "label": "Model", "type": "select", "options": ["GPT-4o", "Claude 3.5"], "default": "GPT-4o" },
+      { "id": "tone", "label": "Tone", "type": "select", "options": ["Professional", "Casual", "Witty"], "default": "Professional" }
+    ],
+    "features": [
+      { "title": "Instant Analysis", "description": "Get results in seconds with our optimized engine." },
+      { "title": "Bank-Grade Security", "description": "Your data is encrypted and never shared." },
+      { "title": "Global Access", "description": "Access your tools from anywhere in the world." }
+    ],
+    "benefits": [
+      { "title": "Save Time", "description": "Automate repetitive tasks and focus on what matters." },
+      { "title": "Increase Revenue", "description": "Unlock new opportunities with data-driven insights." },
+      { "title": "Reduce Errors", "description": "Eliminate human error with AI precision." }
+    ],
+    "stats": [
+      { "label": "Users", "value": "10,000+" },
+      { "label": "Generations", "value": "1M+" },
+      { "label": "Uptime", "value": "99.9%" }
+    ],
+    "testimonials": [
+      { "name": "Alex Chen", "role": "Product Manager", "content": "Saved me 4 hours of work in just 10 minutes.", "avatar": "AC" },
+      { "name": "Sarah Miller", "role": "Digital Artist", "content": "The results speak for themselves. Highly recommended.", "avatar": "SM" }
+    ],
+    "pricing": {
+      "yearly_discount": "50%",
+      "plans": [
+        { "name": "Starter", "price": "$0", "features": ["10 Daily Credits", "Basic Support", "Standard Speed"] },
+        { "name": "Pro", "price": "$9.99", "period": "/mo", "yearly_price": "$4.99", "features": ["Unlimited Credits", "Priority Support", "Fast GPU Access"] }
+      ]
+    },
+    "faq": [
+      { "q": "How does it work?", "a": "We use advanced AI models to process your input." },
+      { "q": "Is it free?", "a": "Yes, we offer a generous free tier." }
+    ],
+    "inspiration": [
+      { "prompt": "Analyze the market trends for AI wrappers in 2024", "label": "Market Analysis" },
+      { "prompt": "Write a python script to scrape pricing data", "label": "Python Script" }
+    ],
+    "theme_config": {
+      "wrapper": "bg-white text-gray-900",
+      "badge": "border-gray-200 bg-gray-50 text-gray-700",
+      "title": "bg-gradient-to-b from-gray-900 to-gray-600",
+      "card": "bg-white border border-gray-200",
+      "list": "text-gray-700",
+      "leadContainer": "bg-white border border-gray-200 shadow-lg",
+      "leadGlow": "bg-gray-100",
+      "leadTitle": "text-gray-900",
+      "leadInput": "bg-white border-gray-200 text-gray-900 placeholder-gray-400 focus:border-gray-400 focus:ring-gray-200",
+      "leadButton": "bg-gray-900 text-gray-900 hover:bg-gray-800",
+      "leadUnlocked": "bg-white border border-gray-200 text-gray-900"
+    }
+  },
+  "dream-interpreter": {
+    "name": "Dream Interpreter AI",
+    "style": "black_gold_77",
+    "description": "Unlock the hidden meaning of your subconscious.",
+    "h1": "Decode Your Dreams",
+    "subtitle": "Freudian and Jungian insights in seconds.",
+    "cta_text": "Analyze for Free",
+    "is_validation_mode": true,
+    "preset_tags": ["Recurring Dreams", "Nightmares", "Lucid Dreaming"],
+    "advanced_options": [
+      { "id": "depth", "label": "Analysis Depth", "type": "select", "options": ["Surface", "Deep Dive"], "default": "Deep Dive" },
+      { "id": "framework", "label": "Framework", "type": "select", "options": ["Freudian", "Jungian", "Modern"], "default": "Jungian" }
+    ],
+    "features": [
+      { "title": "Freudian Analysis", "description": "Deep dive into your subconscious desires and fears." },
+      { "title": "Jungian Archetypes", "description": "Identify universal symbols and patterns in your dreams." },
+      { "title": "Predictive Modeling", "description": "Understand what your dreams might be telling you about the future." }
+    ],
+    "benefits": [
+      { "title": "Self Discovery", "description": "Understand your inner self better." },
+      { "title": "Mental Clarity", "description": "Resolve internal conflicts and anxiety." },
+      { "title": "Creative Inspiration", "description": "Turn dreams into art and stories." }
+    ],
+    "stats": [
+      { "label": "Dreams Analyzed", "value": "50,000+" },
+      { "label": "Accuracy", "value": "94%" },
+      { "label": "Active Users", "value": "12k" }
+    ],
+    "testimonials": [
+      { "name": "Elena R.", "role": "Psychology Student", "content": "The archetypal analysis is spot on. It helped me understand my recurring nightmare.", "avatar": "ER" },
+      { "name": "Marcus T.", "role": "Writer", "content": "I use this to generate plot ideas from my dreams. It's an endless source of inspiration.", "avatar": "MT" },
+      { "name": "Dr. Li", "role": "Therapist", "content": "A fascinating tool for self-reflection. My clients love using it between sessions.", "avatar": "DL" }
+    ],
+    "pricing": {
+      "yearly_discount": "Save 50%",
+      "plans": [
+        { "name": "Dreamer", "price": "$0", "features": ["3 Dreams/Day", "Basic Interpretation", "Personal Journal"] },
+        { "name": "Oracle", "price": "$19", "period": "/mo", "yearly_price": "$9", "features": ["Unlimited Dreams", "Deep Freudian Analysis", "Priority Support", "Export to PDF"] }
+      ]
+    },
+    "faq": [
+      { "q": "Is my dream data private?", "a": "Absolutely. Your entries are encrypted and only visible to you." },
+      { "q": "Can it interpret nightmares?", "a": "Yes, we specialize in decoding anxiety dreams and nightmares to help you find resolution." },
+      { "q": "How accurate is the AI?", "a": "We use a fine-tuned model trained on over 100,000 dream reports and psychological texts." }
+    ],
+    "inspiration": [
+      { "prompt": "I was flying over a golden city but my wings were melting", "label": "Flying Dreams" },
+      { "prompt": "All my teeth fell out during a presentation", "label": "Anxiety Dreams" },
+      { "prompt": "I met my late grandmother in a garden of blue roses", "label": "Visitation Dreams" },
+      { "prompt": "Running from a shadow that I couldn't see", "label": "Chase Dreams" }
+    ],
+    "theme_config": {
+      "wrapper": "bg-black text-gray-900",
+      "badge": "border-yellow-400/30 bg-yellow-400/10 text-yellow-300",
+      "title": "bg-gradient-to-b from-yellow-200 to-yellow-500",
+      "card": "bg-orange-50 border border-yellow-400/20",
+      "list": "text-yellow-300",
+      "leadContainer": "bg-black border border-yellow-400/20 shadow-2xl shadow-yellow-900/30",
+      "leadGlow": "bg-yellow-400/10",
+      "leadTitle": "text-yellow-200",
+      "leadInput": "bg-orange-50 border-white/10 text-gray-900 placeholder-gray-500 focus:border-yellow-300/60 focus:ring-yellow-300/40",
+      "leadButton": "bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:from-yellow-300 hover:to-yellow-500",
+      "leadUnlocked": "bg-black border border-yellow-400/30 text-gray-900"
+    }
+  },
+  "market-scanner": {
+    "name": "Global Market Scanner",
+    "style": "acid_aesthetic",
+    "description": "Detect arbitrage opportunities in real-time.",
+    "h1": "See the Market First",
+    "subtitle": "Realtime volatility and risk scanning.",
+    "cta_text": "Scan for Free",
+    "is_validation_mode": true,
+    "preset_tags": ["Crypto", "Stocks", "Forex"],
+    "advanced_options": [
+      { "id": "timeframe", "label": "Timeframe", "type": "select", "options": ["15m", "1h", "4h", "1d"], "default": "1h" },
+      { "id": "risk_level", "label": "Risk Tolerance", "type": "select", "options": ["Low", "Medium", "High"], "default": "Medium" }
+    ],
+    "features": [
+      { "title": "Volatility Alert", "description": "Instant notifications when assets move significantly." },
+      { "title": "Trend Prediction", "description": "AI-powered forecasting for the next 24 hours." },
+      { "title": "Risk Assessment", "description": "Calculated risk scores for every trade opportunity." }
+    ],
+    "benefits": [
+      { "title": "Beat the Market", "description": "Get data faster than the competition." },
+      { "title": "Automate Trading", "description": "Connect our API to your trading bots." },
+      { "title": "Minimize Loss", "description": "Advanced stop-loss suggestions based on volatility." }
+    ],
+    "stats": [
+      { "label": "Trades Scanned", "value": "24/7" },
+      { "label": "Pairs Supported", "value": "500+" },
+      { "label": "Latency", "value": "<50ms" }
+    ],
+    "testimonials": [
+      { "name": "CryptoKing", "role": "Day Trader", "content": "Caught the ETH dip perfectly thanks to this scanner.", "avatar": "CK" },
+      { "name": "Jane Doe", "role": "Investor", "content": "The risk assessment feature saved me from a bad trade.", "avatar": "JD" }
+    ],
+    "pricing": {
+      "yearly_discount": "Save 40%",
+      "plans": [
+        { "name": "Observer", "price": "$0", "features": ["Delayed Data (15m)", "5 Alerts/Day", "Major Pairs Only"] },
+        { "name": "Sniper", "price": "$29", "period": "/mo", "yearly_price": "$17", "features": ["Real-time Data", "Unlimited Alerts", "All Altcoins", "API Access"] }
+      ]
+    },
+    "faq": [
+      { "q": "What exchanges are supported?", "a": "We support Binance, Coinbase, Kraken, and 10+ others." },
+      { "q": "Is there an API?", "a": "Yes, the Sniper plan includes full REST and WebSocket API access." }
+    ],
+    "inspiration": [
+      { "prompt": "Scan for arbitrage opportunities between Binance and Coinbase for ETH/USDT", "label": "Arbitrage" },
+      { "prompt": "Show me top 5 gainers with RSI < 30 on the 4h timeframe", "label": "Oversold Bounce" }
+    ],
+    "theme_config": {
+      "wrapper": "bg-neutral-950 text-gray-900",
+      "badge": "border-fuchsia-400/40 bg-fuchsia-500/10 text-fuchsia-300",
+      "title": "bg-gradient-to-b from-lime-200 to-fuchsia-400",
+      "card": "bg-orange-50 border border-fuchsia-400/20",
+      "list": "text-lime-200",
+      "leadContainer": "bg-neutral-950 border border-fuchsia-400/20 shadow-2xl shadow-fuchsia-900/30",
+      "leadGlow": "bg-fuchsia-500/10",
+      "leadTitle": "text-lime-200",
+      "leadInput": "bg-orange-50 border-white/10 text-gray-900 placeholder-gray-500 focus:border-lime-300/60 focus:ring-lime-300/40",
+      "leadButton": "bg-gradient-to-r from-lime-300 to-fuchsia-400 text-black hover:from-lime-200 hover:to-fuchsia-300",
+      "leadUnlocked": "bg-neutral-950 border border-fuchsia-400/30 text-gray-900"
+    }
+  },
+  "test-factory-v1": {
+    "name": "AI Resume Roaster",
+    "style": "apple_minimalist",
+    "description": "Get brutally honest feedback on your resume from AI recruiters.",
+    "h1": "AI Resume Roaster",
+    "subtitle": "Get your resume roasted by top recruiters AI.",
+    "cta_text": "Roast My Resume",
+    "is_validation_mode": true,
+    "preset_tags": ["Tech Industry", "Finance", "Creative Arts"],
+    "advanced_options": [
+      { "id": "roast_level", "label": "Roast Level", "type": "select", "options": ["Gentle", "Constructive", "Savage"], "default": "Savage" }
+    ],
+    "features": [
+      { "title": "Instant Roast", "description": "Get immediate feedback on formatting and content." },
+      { "title": "ATS Check", "description": "See if your resume passes automated screening tools." },
+      { "title": "Rewrite Suggestions", "description": "Get actionable advice to improve your bullet points." }
+    ],
+    "benefits": [
+      { "title": "Land More Interviews", "description": "Fix the mistakes that are holding you back." },
+      { "title": "Stand Out", "description": "Make your resume memorable to recruiters." },
+      { "title": "Beat the Bots", "description": "Optimize for ATS keywords." }
+    ],
+    "stats": [
+      { "label": "Resumes Roasted", "value": "15,000+" },
+      { "label": "Interviews Landed", "value": "85%" },
+      { "label": "Avg. Salary Bump", "value": "$20k" }
+    ],
+    "testimonials": [
+      { "name": "David K.", "role": "Software Engineer", "content": "The roast was brutal but necessary. I got 3 interviews the next week.", "avatar": "DK" },
+      { "name": "Emily S.", "role": "Marketing Manager", "content": "Finally, feedback that is actually useful. Highly recommend.", "avatar": "ES" }
+    ],
+    "pricing": {
+      "yearly_discount": "Save 50%",
+      "plans": [
+        { "name": "Intern", "price": "$0", "features": ["1 Roast/Month", "Basic Feedback", "ATS Score"] },
+        { "name": "Executive", "price": "$15", "period": "/mo", "yearly_price": "$7.50", "features": ["Unlimited Roasts", "Detailed Rewrite", "Cover Letter Help"] }
+      ]
+    },
+    "faq": [
+      { "q": "Is it really mean?", "a": "Only if you choose the 'Savage' mode. We can be nice too." },
+      { "q": "Is my data safe?", "a": "Yes, we don't store your resume after analysis." }
+    ],
+    "inspiration": [
+      { "prompt": "Roast my resume for a Senior Java Developer role", "label": "Java Dev" },
+      { "prompt": "Critique my marketing portfolio resume", "label": "Marketing" }
+    ],
+    "theme_config": {
+      "wrapper": "bg-white text-gray-900",
+      "badge": "border-red-200 bg-red-50 text-red-700",
+      "title": "bg-gradient-to-b from-red-900 to-red-600",
+      "card": "bg-white border border-red-200",
+      "list": "text-red-700",
+      "leadContainer": "bg-white border border-red-200 shadow-lg",
+      "leadGlow": "bg-red-100",
+      "leadTitle": "text-red-900",
+      "leadInput": "bg-white border-red-200 text-gray-900 placeholder-gray-400 focus:border-red-400 focus:ring-red-200",
+      "leadButton": "bg-red-900 text-gray-900 hover:bg-red-800",
+      "leadUnlocked": "bg-white border border-red-200 text-gray-900"
+    }
+  },
+  "amazon-poa-generator": {
+    "name": "Amazon POA Generator",
+    "style": "dark_sleek",
+    "description": "Stop wasting hours on legal research. Our AI is trained on thousands of successful Amazon reinstatement cases to generate the perfect Plan of Action (POA).",
+    "h1": "Recover Your Amazon Business in 1 Minute",
+    "subtitle": "Stop wasting hours on legal research. Our AI is trained on thousands of successful Amazon reinstatement cases to generate the perfect Plan of Action (POA).",
+    "cta_text": "Generate Winning Appeal ✨",
+    "input_placeholder": "Paste your Amazon suspension notice or describe the issue (e.g., Section 3, ODR, IP Complaint)...",
+    "is_validation_mode": true,
+    "theme_config": {
+      "leadTitle": "text-[#FFD700]",
+      "leadSubtitle": "text-gray-300",
+      "primaryColor": "bg-indigo-600",
+      "primaryHover": "hover:bg-indigo-700",
+      "wrapper": "bg-slate-50 text-slate-900",
+      "badge": "border-blue-200 bg-blue-50 text-blue-700",
+      "title": "bg-gradient-to-b from-slate-900 to-slate-700",
+      "card": "bg-white border border-slate-200",
+      "list": "text-slate-700",
+      "leadContainer": "bg-[#0a0a0a] border border-[#333] shadow-2xl",
+      "leadGlow": "bg-yellow-500/10",
+      "leadInput": "bg-[#1a1a1a] border-[#333] text-gray-900 placeholder-gray-500 focus:border-[#FFD700] focus:ring-[#FFD700]",
+      "leadButton": "bg-[#FFD700] text-black hover:bg-[#F0C000] shadow-lg shadow-yellow-500/20",
+      "leadUnlocked": "bg-[#111] border border-[#333] text-gray-900"
+    },
+    "features": [
+      { 
+        "title": "Instant Reinstatement Logic", 
+        "description": "Bypass expensive agencies. Get a professional, Amazon-compliant POA instantly." 
+      },
+      { 
+        "title": "Root Cause Accuracy", 
+        "description": "AI identifies the exact policy violation Amazon wants you to address." 
+      },
+      { 
+        "title": "100% Data Privacy", 
+        "description": "Your store details and ASINs are never stored or shared." 
+      }
+    ],
+    "pricing": {
+      "yearly_discount": "Save 40%",
+      "plans": [
+        { 
+          "name": "Basic Appeal", 
+          "price": "$0", 
+          "period": "/mo", 
+          "features": ["1 AI Appeal Generation", "Standard Turnaround", "General Guidelines"],
+          "cta": "Start for Free"
+        },
+        { 
+          "name": "Professional Seller", 
+          "price": "$29", 
+          "period": "/mo", 
+          "yearly_price": "$17", 
+          "features": ["Unlimited Appeal Generations", "Case-Specific Customization", "Priority Email Support", "Reinstatement Blueprint"],
+          "cta": "Upgrade Now"
+        }
+      ]
+    },
+    "faq": [
+      { 
+        "q": "Does this guarantee my account will be reinstated?", 
+        "a": "While no tool can guarantee a 100% reinstatement, our AI uses proven structures that Amazon Seller Performance teams look for, significantly increasing your chances." 
+      },
+      { 
+        "q": "What types of suspensions do you cover?", 
+        "a": "We cover Section 3 violations, High ODR, IP Complaints, Inauthentic Items, and Late Shipment Rate suspensions." 
+      }
+    ],
+    "preset_tags": ["Section 3 Suspension", "IP Complaint", "ODR High"],
+    "advanced_options": [
+      { "id": "suspension_type", "label": "Suspension Type", "type": "select", "options": ["Late Shipment Rate", "Order Defect Rate", "IP Infringement", "Review Manipulation"], "default": "Order Defect Rate" },
+      { "id": "language", "label": "Language", "type": "select", "options": ["English", "German", "Japanese"], "default": "English" }
+    ],
+    "stats": [
+      { "label": "Appeals Generated", "value": "10,000+" },
+      { "label": "Success Rate", "value": "92%" },
+      { "label": "Money Saved", "value": "$5M+" }
+    ],
+    "testimonials": [
+      { "name": "Sarah Jenkins", "role": "FBA Seller", "content": "I was reinstated in 24 hours after using this tool. A lifesaver!", "avatar": "SJ" },
+      { "name": "Mike Ross", "role": "E-com Agency Owner", "content": "We use this for all our clients now. It's faster and better than manual writing.", "avatar": "MR" }
+    ],
+    "inspiration": [
+      { "prompt": "My late shipment rate exceeded 4% due to a warehouse storm", "label": "Late Shipment" },
+      { "prompt": "Received a counterfeit claim for a Nike shoe listing", "label": "Counterfeit Claim" }
+    ]
+  },
+  "resume-roaster": {
+    "name": "Resume Roaster",
+    "style": "apple_minimalist",
+    "description": "",
+    "h1": "",
+    "subtitle": "",
+    "cta_text": "",
+    "input_placeholder": "",
+    "is_validation_mode": true,
+    "preset_tags": [],
+    "advanced_options": [],
+    "features": [],
+    "pricing": {
+      "yearly_discount": "",
+      "plans": []
+    },
+    "faq": [],
+    "inspiration": []
+  },
+  "visa-statement-gen": {
+    "name": "Visa Statement Generator",
+    "style": "apple_minimalist",
+    "description": "",
+    "h1": "",
+    "subtitle": "",
+    "cta_text": "",
+    "input_placeholder": "",
+    "is_validation_mode": true,
+    "preset_tags": [],
+    "advanced_options": [],
+    "features": [],
+    "pricing": {
+      "yearly_discount": "",
+      "plans": []
+    },
+    "faq": [],
+    "inspiration": []
+  },
+  "fridge-chef": {
+    "name": "FridgeChef AI",
+    "name_zh": "冰箱AI厨神",
+    "expert_identity": "You are a Michelin-starred chef with 20 years of experience. You specialize in turning leftover ingredients into gourmet dishes. Your style is creative, practical, and focuses on making the most of what the user has in their fridge.",
+    "style": "apple_minimalist",
+    "description": "Snap your fridge, AI becomes your Michelin chef. The ultimate magic to solve 'What's for Dinner?'",
+    "description_zh": "拍一下冰箱，AI秒变米其林大厨。解决'今晚吃啥'的终极魔法。",
+    "h1": "Snap Your Fridge, AI Becomes Your Michelin Chef",
+    "h1_zh": "拍一下冰箱，AI秒变米其林大厨",
+    "subtitle": "The ultimate magic to solve 'What's for Dinner?'",
+    "subtitle_zh": "解决'今晚吃啥'的终极魔法",
+    "cta_text": "Upload Photo",
+    "cta_text_zh": "上传食材照片",
+    "input_placeholder": "Click to upload fridge or ingredients photo",
+    "input_placeholder_zh": "点击上传冰箱或食材照片",
+    "is_validation_mode": true,
+    "preset_tags": ["Quick Home Cooking", "Michelin Style", "Healthy Diet", "Baby Food"],
+    "preset_tags_zh": ["快手家常", "米其林风味", "减脂餐", "宝宝辅食"],
+    "advanced_options": [
+      { "id": "cuisine", "label": "Cuisine", "label_zh": "菜系", "type": "select", "options": ["Chinese", "Western", "Japanese", "Korean", "Sichuan", "Cantonese"], "options_zh": ["中餐", "西餐", "日料", "韩式", "川菜", "粤菜"], "default": "Chinese" },
+      { "id": "difficulty", "label": "Difficulty", "label_zh": "难度", "type": "select", "options": ["Easy", "Medium", "Hard"], "options_zh": ["简单", "中等", "困难"], "default": "Easy" }
+    ],
+    "features": [
+      { "title": "AI Ingredient Recognition", "title_zh": "AI食材识别", "description": "Smart identification of ingredients in your fridge, no more waste", "description_zh": "智能识别冰箱中的食材，告别浪费" },
+      { "title": "Instant Recipe Generation", "title_zh": "一键生成食谱", "description": "Get delicious recipes in seconds, anyone can be a chef", "description_zh": "秒出美味菜谱，厨房小白也能变大厨" },
+      { "title": "Daily Inspiration", "title_zh": "每日灵感推荐", "description": "Recommended menus based on season and inventory", "description_zh": "根据时令和库存推荐今日菜单" }
+    ],
+    "benefits": [
+      { "title": "Say Goodbye to Choice Fatigue", "title_zh": "告别选择困难", "description": "Never worry about 'What's for Dinner' again", "description_zh": "再也不用为'今晚吃啥'发愁" },
+      { "title": "Zero Waste Kitchen", "title_zh": "零浪费厨房", "description": "Make the most of leftover ingredients", "description_zh": "充分利用冰箱剩余食材" },
+      { "title": "Share Your Achievement", "title_zh": "分享成就感", "description": "Generate beautiful recipe cards, show off your chef skills", "description_zh": "生成精美食谱卡片，晒出你的厨神风采" }
+    ],
+    "stats": [
+      { "label": "Ingredients", "label_zh": "食材识别", "value": "200+" },
+      { "label": "Recipes", "label_zh": "食谱生成", "value": "10,000+" },
+      { "label": "User Love", "label_zh": "用户喜爱", "value": "98%" }
+    ],
+    "testimonials": [
+      { "name": "Sarah", "name_zh": "小美", "role": "Office Worker", "role_zh": "上班族", "content": "Now I know how to pair ingredients in my fridge!", "content_zh": "终于知道冰箱里的食材该怎么搭配了！", "avatar": "SS" },
+      { "name": "Mike", "name_zh": "老王", "role": "Dad", "role_zh": "宝爸", "content": "Making baby food is no longer a problem", "content_zh": "给宝宝做辅食再也不用发愁了", "avatar": "MK" }
+    ],
+    "pricing": {
+      "yearly_discount": "Save 50%",
+      "yearly_discount_zh": "省50%",
+      "plans": [
+        { "name": "Free", "name_zh": "免费版", "price": "$0", "price_zh": "¥0", "features": ["5 daily scans", "Basic recipes", "Standard quality"], "features_zh": ["每日5次识别", "基础食谱", "普通画质"], "cta": "Get Started", "cta_zh": "开始使用" },
+        { "name": "Pro", "name_zh": "厨神版", "price": "$4.99", "price_zh": "¥19.9", "period": "/month", "period_zh": "/月", "yearly_price": "$2.99", "yearly_price_zh": "¥9.9", "features": ["Unlimited scans", "HD recipe images", "Save recipes", "Personalized recommendations"], "features_zh": ["无限次识别", "高清菜谱图", "保存食谱", "专属推荐"], "cta": "Upgrade Now", "cta_zh": "立即升级" },
+        { "name": "Lifetime", "name_zh": "终身版", "price": "$49", "price_zh": "¥99", "period": "Lifetime", "period_zh": "终身", "features": ["All features", "永久使用", "Priority new features"], "features_zh": ["所有功能", "永久使用", "优先体验新功能"], "cta": "Limited Offer", "cta_zh": "限时抢购" }
+      ]
+    },
+    "faq": [
+      { "q": "What image formats are supported?", "q_zh": "支持什么图片格式？", "a": "Supports JPG, PNG, WebP and more. Clear ingredient photos recommended", "a_zh": "支持 JPG、PNG、WebP 等常见格式，建议上传清晰的食材照片" },
+      { "q": "What if I run out of free daily scans?", "q_zh": "每日免费次数用完了怎么办？", "a": "Follow our公众号 for more free scans, or upgrade to Pro for unlimited access", "a_zh": "关注公众号获取更多免费次数，或升级厨神版获得无限使用" },
+      { "q": "How accurate is the recognition?", "q_zh": "识别准确吗？", "a": "We use the latest vision AI models with 95%+ accuracy", "a_zh": "我们使用最新的视觉AI模型，识别准确率高达95%以上" }
+    ],
+    "inspiration": [
+      { "prompt": "Rice + Eggs + Green onions", "prompt_zh": "剩米饭+鸡蛋+葱花", "label": "Golden Egg Fried Rice", "label_zh": "黄金蛋炒饭" },
+      { "prompt": "Potato + Carrot + Onion", "prompt_zh": "土豆+胡萝卜+洋葱", "label": "Homestyle Borscht", "label_zh": "家常罗宋汤" },
+      { "prompt": "Chicken + Broccoli + Carrot", "prompt_zh": "鸡胸肉+西兰花+胡萝卜", "label": "Healthy Diet Meal", "label_zh": "健康减脂餐" }
+    ],
+    "theme_config": {
+      "wrapper": "bg-gradient-to-b from-orange-50 to-amber-50 text-gray-900",
+      "badge": "border-orange-200 bg-orange-50 text-orange-700",
+      "title": "bg-gradient-to-b from-orange-600 to-amber-500",
+      "card": "bg-white border border-orange-100",
+      "list": "text-orange-700",
+      "leadContainer": "bg-white border border-orange-200 shadow-xl shadow-orange-200/30",
+      "leadGlow": "bg-orange-100",
+      "leadTitle": "text-gray-900",
+      "leadInput": "bg-orange-50 border-orange-200 text-gray-900 placeholder-gray-400 focus:border-orange-400 focus:ring-orange-200",
+      "leadButton": "bg-gradient-to-r from-orange-500 to-amber-500 text-gray-900 hover:from-orange-600 hover:to-amber-600",
+      "leadUnlocked": "bg-white border border-orange-200 text-gray-900"
+    }
+  }
+}
