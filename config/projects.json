@@ -417,9 +417,8 @@
       "yearly_discount": "Save 50%",
       "yearly_discount_zh": "省50%",
       "plans": [
-        { "name": "Free", "name_zh": "免费版", "price": "$0", "price_zh": "¥0", "features": ["5 daily scans", "Basic recipes", "Standard quality"], "features_zh": ["每日5次识别", "基础食谱", "普通画质"], "cta": "Get Started", "cta_zh": "开始使用" },
-        { "name": "Pro", "name_zh": "厨神版", "price": "$4.99", "price_zh": "¥19.9", "period": "/month", "period_zh": "/月", "yearly_price": "$2.99", "yearly_price_zh": "¥9.9", "features": ["Unlimited scans", "HD recipe images", "Save recipes", "Personalized recommendations"], "features_zh": ["无限次识别", "高清菜谱图", "保存食谱", "专属推荐"], "cta": "Upgrade Now", "cta_zh": "立即升级" },
-        { "name": "Lifetime", "name_zh": "终身版", "price": "$49", "price_zh": "¥99", "period": "Lifetime", "period_zh": "终身", "features": ["All features", "永久使用", "Priority new features"], "features_zh": ["所有功能", "永久使用", "优先体验新功能"], "cta": "Limited Offer", "cta_zh": "限时抢购" }
+        { "name": "Free", "name_zh": "免费版", "price": "$0", "price_zh": "¥0", "features": ["3 daily scans", "Basic recipes", "Standard quality"], "features_zh": ["每日3次识别", "基础食谱", "普通画质"], "cta": "Get Started", "cta_zh": "开始使用" },
+        { "name": "Pro", "name_zh": "厨神版", "price": "$4.99", "price_zh": "¥19.9", "period": "/month", "period_zh": "/月", "yearly_price": "$2.99", "yearly_price_zh": "¥9.9", "features": ["Unlimited scans", "HD recipe images", "Save recipes", "Personalized recommendations"], "features_zh": ["无限次识别", "高清菜谱图", "保存食谱", "专属推荐"], "cta": "Upgrade Now", "cta_zh": "立即升级" }
       ]
     },
     "faq": [
